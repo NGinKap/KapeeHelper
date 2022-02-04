@@ -1,0 +1,21 @@
+{
+    "name": "kapee/php-jwt-helper",
+    "description": "This For PHP JWT Helper",
+    "license": "MIT",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "PhpJwtHelper\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Raihan Anubhawa Ekaputra",
+            "email": "raihanubhawa@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "firebase/php-jwt": "^5.5"
+    }
+}
